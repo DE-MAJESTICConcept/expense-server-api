@@ -1,0 +1,20 @@
+{
+  "name": "expenses-tracker",
+  "version": "1.0.0",
+  "main": "server.js",
+  
+  "scripts": {
+    "server": "npm run watch --prefix server",
+    "client": "npm run start --prefix client",
+    "watch": "npm run server & npm client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "expenses-tracker": "file:",
+    "express-async-handler": "^1.2.0"
+  }
+}
